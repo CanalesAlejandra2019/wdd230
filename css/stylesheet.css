@@ -3,6 +3,10 @@ body{
     margin:auto;
     max-width: 600px;
 }
+
+font-family: 'Montserrat', sans-serif;
+
+
 .titlesquare{
     margin-top: 25px;
     display: grid;
