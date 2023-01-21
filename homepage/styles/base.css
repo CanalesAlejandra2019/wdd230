@@ -3,10 +3,30 @@ nav{
     flex-direction: column;
     gap: 8px;
     text-align: center;
+    font-family: Arial;
 }
 nav a {
-    color:black;
+    color:white;
     text-decoration: none;
-    background-color: coral;
+    background-color: black;
     padding: .8rem;
 }   
+section {
+    border: 1px dashed fuchsia;
+    
+}
+main , header{
+    font-family: Arial;
+}
+/* nav *:nth-child(1){
+    margin-right: 3rem;
+}
+
+main {
+    max-width: 760px;
+    justify-self: center;
+}
+
+section .class {
+    border:1px dashed lavender;
+} */
