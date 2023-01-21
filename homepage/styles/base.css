@@ -17,16 +17,15 @@ section {
 }
 main , header{
     font-family: Arial;
-}
-/* nav *:nth-child(1){
-    margin-right: 3rem;
-}
-
-main {
     max-width: 760px;
     justify-self: center;
 }
 
-section .class {
-    border:1px dashed lavender;
+img {
+    width: 20%;
+    box-shadow: 1px 1px 10px;
+}
+ /* nav *:nth-child(1){
+    margin-right: 3rem;
 } */
+
