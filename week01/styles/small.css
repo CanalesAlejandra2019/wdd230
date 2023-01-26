@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    font-family: Arial;
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    background-color: #f68cce ;
+    padding: .8rem;
+}   
+section {
+    border: 1px dashed #f68cce;
+    
+}
+main , header{
+    font-family: Arial;
+    max-width: 760px;
+    justify-self: center;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    box-shadow: 1px 1px 10px;
+}
+
+h1{
+    color: black;
+}
+ /* nav *:nth-child(1){
+    margin-right: 3rem;
+} */
+
+body{
+    font-family: "Roboto";
+ }
+
+ main{
+    grid-template-columns: 1fr;
+    margin: 1rem ;
+ }
+section { 
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+ header, main, footer {
+    max-width: 640px ;
+    margin: 1rem auto;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color:#b0ced1;
+    padding: 5px 10px 5px 10px;
+ }
+
+ header, footer{
+    background: #b0ced1;
+ }
+ 
