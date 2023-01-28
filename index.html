@@ -8,7 +8,7 @@
     <meta name="description" content="This is for WDD230. My name is Alejandra Canales and this is my course assignment portal">
     <meta property = "og:title" content="WDD230 Portal">
     <meta property = "og:type" content="website">
-    <meta property = "og:images" href="images/downtownmiami.jpg">
+    <meta property = "og:images" content="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/339000/339656-Downtown-Miami.jpg">
     <meta property = "og:url" content="http://127.0.0.1:5500/homepage/index.html">
     <title>WDD 230 - Portal - Alejandra Canales</title>
     <link rel="stylesheet" href="styles/base.css">
@@ -17,10 +17,14 @@
 </head>
 <body>
     <nav>
-        <a href="#">&#9776;</a>
-        <a href="#">Linked In</a>
-        <a href="#">BYUI</a>
-    </nav>
+      <ul class="menu">
+      <li title="home">
+        <a href="#" id="menu-button">&#9776;</a>
+        <a href="https://www.linkedin.com/" class="menu-item">Linked In</a>
+        <a href="https://www.byui.edu/" class="menu-item">BYUI</a>
+    </li>  
+  </ul>
+      </nav>
     <header>
         <img src="images/coursehomepagepicture.JPG" alt="portrait of me ">
         <h1>Alejandra Canales</h1>
@@ -75,8 +79,9 @@
           
         </p>
       </footer>
-      <link href="scripts/getDates.js"></link>
-</body>
+          <script src="scripts/getDates.js"></script>
+          <script src="scripts/clickMenu.js"></script>
+    </body>
 </html>
 
 <!-- <!DOCTYPE html>
