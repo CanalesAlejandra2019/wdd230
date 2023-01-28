@@ -12,7 +12,7 @@ nav a {
     padding: .8rem;
 }   
 section {
-    border: 1px dashed fuchsia;
+    border: 1px dashed purple;
     
 }
 main , header{
@@ -23,6 +23,7 @@ main , header{
 
 img {
     width: 20%;
+    height: auto;
     box-shadow: 1px 1px 10px;
 }
  /* nav *:nth-child(1){
