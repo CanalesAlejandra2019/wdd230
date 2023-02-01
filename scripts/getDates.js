@@ -1,7 +1,8 @@
- let text = document.lastModified;
-     document.getElementById("lastModified").innerHTML = text;
+ const d = new Date();
+ let year = d.getFullYear();
+     document.getElementById("newDate").innerHTML = year;
 
     <script>
-    let text = document.lastModified;
-     document.getElementById("lastModified").innerHTML = text;
+    let date = new Date(document.lastModified);
+     document.getElementById("lastModified").innerHTML = date;
  </script>

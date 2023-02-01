@@ -16,6 +16,6 @@ main h2{
 }
 
 main section:first-of-type {
-    background-color: papayawhip;
+    background-color: peru;
     grid-row: 2 / span 2;
 }
