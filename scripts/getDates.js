@@ -2,7 +2,5 @@
  let year = d.getFullYear();
      document.getElementById("newDate").innerHTML = year;
 
-    <script>
-    let date = new Date(document.lastModified);
+const date = new Date(document.lastModified);
      document.getElementById("lastModified").innerHTML = date;
- </script>
