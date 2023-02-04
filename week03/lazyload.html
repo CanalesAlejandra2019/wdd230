@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Demonstration</title>
+    <meta name="description" content="Lazy load for WDD 230 assignment" />
+    <meta name="author" content="Alejandra Canales" />
+
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <link rel="stylesheet" href="styles/lazyloadlarge.css">
+
+</head>
+<body>
+    <header>
+    <h1>Lazy Load</h1>
+    </header>
+        <main>
+            <picture>
+                <img src="images/aurora.JPG" alt="aurora" loading="lazy" width="400px" height="600px">
+            </picture>
+            <picture>
+                <img src="images/beachborealis.JPG" alt="beach borealis"  loading="lazy" width="400px" height="600px">
+            </picture>
+            <picture>
+                <img src="images/jellyfish.JPG" alt="jellyfish"  loading="lazy" width="400px" height="600px">
+            </picture>
+            <picture>
+                <img src="images/jupiter.JPG" alt="jupiter"  loading="lazy" width="400px" height="600px">
+            </picture>
+            <picture>
+                <img src="images/geyser.JPG" alt="geyser" loading="lazy"  width="400px" height="600px">
+            </picture>
+            <picture>
+                <img src="images/science.JPG" alt="mitochondria" loading="lazy"  width="400px" height="600px">
+            </picture>
+        </main>
+        <footer>
+            <p> &#169; <a class="highlight" id="newDate"></a> Alejandra Canales <br>
+              <a class="highlight" id="lastModified"> </a>
+              
+            </p>
+          </footer>
+              <script src="scripts/getDates.js"></script>
+        </body>
+    </html>
