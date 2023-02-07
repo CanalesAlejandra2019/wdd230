@@ -149,7 +149,27 @@ picture {
 	font-size: 2rem;
 	}
 
-	footer {
+.googlemap{
+	overflow: hidden;
+	position: relative;
+	width: auto;
+	height: 450px;
+	padding: 1rem;
+	border-style: solid;
+	background-color: #0c0c69;
+	gap: 1.5rem;
+	border-radius: 50px;
+}
+
+.googlemap iframe{
+	position:absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+footer {
 		color:rgb(239, 228, 228);
 		background:rgb(0, 1, 60);
 		padding: 1rem;

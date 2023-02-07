@@ -31,9 +31,9 @@
 
         <div class="hero">
           <picture>
-            <source srcset="images/ftlauderdaletemplesmall" loading = "lazy" media="(max-width: 400px)">
+            <source srcset="images/ftlauderdaletemplesmall.webp" loading = "lazy" media="(max-width: 400px)">
               <img src="images/ftlauderdaletemplelarge.webp" loading ="lazy" media="(max-width:
-              1000px)" alt="hero temple">
+              960px)" alt="hero temple">
               <div class="herolabel">
                 <p>Ft Lauderdale Temple</p>
               </div>
@@ -83,11 +83,17 @@
       </section>
       <section class="card3">
         <h3> Information</h3>
-        <h4></h4> 
+        
+        <h4><p><span class="label">Number of Visits: </span><span class="visits"></span></p></h4> 
         <h4></h4>
 
       </section>
       </main>
+
+      <div class="googlemap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.38943788475!2d-80.29949864510652!3d25.782545311221693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL!5e0!3m2!1sen!2sus!4v1675790315950!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
       <footer>
         <p> &#169; <a class="highlight" id="newDate"></a> Alejandra Canales <br>
           <a class="highlight" id="lastModified"> </a>
@@ -97,6 +103,7 @@
           <script src="scripts/getDates.js"></script>
           <script src="scripts/clickMenu.js"></script>
           <script src="scripts/darkMode.js"></script>
+          <script src="scripts/siteVisits.js"></script>
     </body>
 </html>
 

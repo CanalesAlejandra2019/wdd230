@@ -1,4 +1,4 @@
-const menubutton = document.querySelector("#menu-button");
+const menubutton = document.querySelector("header button");
 const menuitems = document.querySelectorAll(".menu-item");
 
 menubutton.addEventListener("click", () => {
