@@ -1,9 +1,18 @@
+
 @media only screen and (min-width: 600px){
  
     header {
-        margin-bottom: 15em;
-        padding-bottom: 2em;
-    }
+        width: 100%;
+        grid-column: 1 / 4;
+        height: 20 rem;
+    } 
+    header img {
+        width:fit-content;
+        position: center;
+        display: flex;
+        margin: auto;
+        border: none;
+    }  
     header button{
         display: none;
     }
@@ -13,83 +22,53 @@
     }
 
     nav {
-		display: flex;
-		flex-direction: row-reverse;
-		gap: 1.5rem;
-		align-items: center;
-		background-color:#11526F;
-		padding: 1.5rem;
-	}
+        min-width: 1400px;
+        top: 0px;
+        font-size: larger;
+        display: block;
+    }
     nav ul {
         display: flex;
         flex-direction: row-reverse;
+    }         
+ /* Discover page css */
+    .main-content {
+        margin-left: 400px;
+        margin-right: auto;
+        padding: 1px 16px;
+        height: auto;
+        min-width: 400px;
+        
     }
-
-    .callout-btn {
-    
-        display: inline-block;
-        width: 200px;
-        font-weight: bold;
-        padding: 10px;
-        color: black;
-        background-color: rgb(67, 248, 194);
-        border: 3px solid rgb(12, 46, 23);
-        text-align: center;
-        outline: none;
-        text-decoration: none;
-        transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    .main-content img:hover {
+        border-color:rgb(2, 3, 85) ;
     
     }
-
-    .callout-btn:hover, .callout-btn:active {
-        background-color: rgb(105, 183, 247);
-        color: #000;
-        transition: background-color 0.3s ease-out, color 0.3s ease-out;
-        
-   }
-
-   main {
-    max-width: 960px;
-    display: grid;
-    margin: auto;
-    grid-template-rows: 6em 15em  11em 1em;
-    grid-template-columns: 1fr 1fr 1fr ;
-
-}
-
-.square1 {
-    grid-column: 1/3;
-    grid-row: 2/3;
-    padding: 0em;
-    border-radius: 1em;
-    font-size: 18px;
-    background-color:whitesmoke;
-    box-shadow: 0 0 15px #000;
-    margin-top: 20px;
-}
-
-.square2 {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    padding: 0em;
-    border-radius: 0.7em;
-    font-size: 18px;
-    background-color:whitesmoke;
-    box-shadow: 0 0 15px #000;
-    margin-top: 20px;
-        
-}
-
-.square3 {
-    grid-column:1/2;
-    grid-row: 3/4;
-    padding: 0em;
-    border-radius: 0.7em;
-    font-size: 18px;
-    background-color:whitesmoke;
-    box-shadow: 0 0 15px #000;
-
-}
+    .left-sidebar {
+        width: 400px;
+        height: auto;
+        position: absolute;
+        top: 41rem;
+        display: flex;
+        flex-direction: column;
+      }
    
-}
-    
+
+      /* visits per page */
+      
+    p {
+        margin: 1rem;
+      }
+      
+    .label {
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+      }
+      
+    #visits {
+        color: navy;
+        font-weight: bolder;
+        font-size: larger;
+      }
+}   
+
