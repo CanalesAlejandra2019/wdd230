@@ -4,7 +4,7 @@
     header {
         width: 100%;
         grid-column: 1 / 4;
-        height: 20 rem;
+        height: 55rem;
     } 
     header img {
         width:fit-content;
@@ -31,44 +31,27 @@
         display: flex;
         flex-direction: row-reverse;
     }         
- /* Discover page css */
+
     .main-content {
+        flex: 3;
         margin-left: 400px;
-        margin-right: auto;
-        padding: 1px 16px;
-        height: auto;
         min-width: 400px;
         
     }
     .main-content img:hover {
         border-color:rgb(2, 3, 85) ;
+        border-width: 10px;
     
     }
     .left-sidebar {
+        flex: 1;
+        text-align: justify;
+        padding: 10px;
         width: 400px;
         height: auto;
         position: absolute;
         top: 41rem;
-        display: flex;
-        flex-direction: column;
       }
    
-
-      /* visits per page */
-      
-    p {
-        margin: 1rem;
-      }
-      
-    .label {
-        font-family: Arial, sans-serif;
-        font-weight: 700;
-      }
-      
-    #visits {
-        color: navy;
-        font-weight: bolder;
-        font-size: larger;
-      }
 }   
 

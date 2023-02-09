@@ -1,28 +1,28 @@
  body {
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
   h1 {
-    display: flex; 
     padding: 10px;
+    display: flex; 
+    
   }
   header {
     display: grid;
     padding: .5rem;
     grid-template-columns: auto 48px;
-    background: #23d0cd;
+    background:  rgb(2, 67, 37);
     color: black;
   }
   header button {
+    font-size: 2rem;
     height: 48px;
     width: 48px;
-    font-size: 2rem;
     background-color:#011014;
   }
   header img{
     display: flex;
-    border-color:rgb(236, 225, 195);
+    border-color:rgb(9, 33, 130);
     border-style: solid;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 25px;
     top: 100px; 
     left: 50px; 
@@ -32,8 +32,6 @@
   .join-button{
     display: flex;
     margin: auto;
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 25px;
     padding: 14px 28px;
@@ -47,7 +45,6 @@
 /* Menu code below */
   
   nav  {
-    /* display: none;  */
     position: absolute;
     top: 100px;
     right: 0px;
@@ -116,7 +113,6 @@
 
   }
 
-  /* Discover page css */
 
   .main-content img{
     display: flex;
@@ -129,11 +125,12 @@
     height: auto;
   }
   .left-sidebar {
-    background-color: #1024ba;
+    float: left;
+    background-color: #3c8ef8;
     text-align: center;
     font-size: large;
+    height: 100%;
   }
-/* Discover page css  end */
 
   footer {
     background: rgb(2, 67, 37);
