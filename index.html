@@ -101,71 +101,68 @@
       </div>
 
 
-      <sectionb>
-        <main class="main" >
-            <h1>Contact Us Form</h1>
-                <form method="get" oninput="result.value=parseInt(a.value)"></form>
-                    <div id="formmessage"></div>
-                    <label>Star Rating:</label>     
-                        <div class="stars">
-                            <input type="radio" id="fivestar" name="stars" value="5" required>
-                                <label for="fivestar"></label>   
-                            <input type="radio" id="fourstar" name="stars" value="4" required>
-                                <label for="fourstar"></label>      
-                            <input type="radio" id="threestar" name="stars" value="3" required>
-                                <label for="threestar"></label>   
-                            <input type="radio" id="twostar" name="stars" value="2" required>
-                                <label for="twostar"></label>  
-                            <input type="radio" id="onestar" name="stars" value="1" required>
-                                <label for="onestar"></label>    
-                        </div>
-                    <label for="fullname">Name:</label>
-                        <input type="text" id="fullname" name="fullname" required placeholder="Your full name" />
-                    <label for="email">Email address:</label>
-                        <input type="email" id="email" name="email" required />
-                    <label for="phone">Phone number:</label>
-                        <input type="tel" id="phone" name="phone" required oninvalid="this.setCustomValidity('Please enter a valid phone number!')"  oninput="this.setCustomValidity('')"/>
-                    <label for="keyphrase">User Name:</label>
-                        <input type="text" id="keyphrase" name="keyphrase" pattern="[a-z]*" required /> <!-- {min,max} -->
-                    <label for="keyphrase2">Re-enter User Name:</label>
-                        <input type="text" id="keyphrase2" name="keyphrase2" />
-                    <label for="comments">Message:</label>
-                        <textarea id="comments" name="comments" required></textarea>
-                    <button class="msgbtn" id="btnSubmit" type="submit">Send Message</button>
-                        <input type="hidden" value="43aster">      
-                </form>
-        </main>
-        <table>
-          <caption> HTML Table Output</caption>
-          <thead>
-              <tr>
-                  <th colspan="2" scope="colgroup">Form Input</th>
-              </tr>
-              <tr>
-                  <th scope="col">Field </th>
-                  <th scope="col">Value</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td>Name:  </td>
-                  <td><output name="result" for="fullname" >"fullname"</td> 
-              </tr>
-              <tr>
-                  <td>Email:  </td>
-                  <td> "email"</td> 
-              </tr>
-              <tr>
-                  <td>Rating: </td>
-                  <td> "stars"</td> 
-              </tr>
-              <tr>
-                  <td>Username:  </td>
-                  <td>"keyphrase"</td> 
-              </tr>
-          </tbody>
-      </table>
-</sectionb>
+      <form method="get" id="contact">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">Full Name* <input type="text" id="iuser" name="fullname" required></label>
+            <label class="top">Email* <input type="email" name="email" id="iemail" placeholder="someone@gmail.com" required></label>            
+            <div class="rangecontainer">
+            <label for="r">Page Rating [ <span id="rating"></span> ]:</label>
+            <input type="range" min="1" max="10" id="r" name="r" list="five">
+                <div class="ratinglabels">
+                    <span class="ratevalue">1</span>
+                    <span class="ratevalue">2</span>
+                    <span class="ratevalue">3</span>
+                    <span class="ratevalue">4</span>
+                    <span class="ratevalue">5</span>
+                    <span class="ratevalue">6</span>
+                    <span class="ratevalue">7</span>
+                    <span class="ratevalue">8</span>
+                    <span class="ratevalue">9</span>
+                    <span class="ratevalue">10</span>
+                </div>
+            </div>
+            <label class="top">Username <input type="password" id="keyphrase" name="password" required></label>
+            <label class="top">Username <input type="password" id="keyphrase2" name="password" required></label>
+            <input type="submit" value="Contact Us" class="submitBtn">
+        
+        </fieldset>
+
+    </form>
+
+    <div id="formmessage"></div>
+    <div class="outputtable">
+    <table class="contact">
+        <caption>Form Input</caption>
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th >Value</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td class="field">Name:</td>
+                <td id="ouser"></td>
+
+            </tr>
+            <tr>
+                <td class="field">Email:</td>
+                <td id="oemail"></td>
+            </tr>
+            <tr>
+                <td class="field">Rating:</td>
+                <td id="orating"></td>
+            </tr>
+            <tr>
+                <td class="field">Username:</td>
+                <td id="ousername"></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    
       <footer>
         <p> &#169; <a class="highlight" id="newDate"></a> Alejandra Canales <br>
           <a class="highlight" id="lastModified"> </a>
@@ -182,6 +179,7 @@
 </html>
 
 <!-- <!DOCTYPE html>
+  back up html
 <html lang="en">
 <head>
     <meta charset="UTF-8">

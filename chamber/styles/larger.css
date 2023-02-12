@@ -52,6 +52,20 @@
         position: absolute;
         top: 41rem;
       }
-   
+      legend{
+		font-size: x-large;
+	}
+	fieldset{
+		max-width: 425px;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	.membership .sbs{
+		grid-column: auto;
+	}
+	.membdesc {
+		display: block;
+	}
+
 }   
 
