@@ -49,3 +49,21 @@ nav ul{
 .card3{
     text-align: center;
 }
+
+sectionb {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    text-align: left;
+}
+.main{
+    position: initial;
+}
+label {
+    text-align: left;
+    }
+.table {
+    grid-row: 2 / span 2;
+    text-align: right;
+}
+
+
