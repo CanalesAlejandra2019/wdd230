@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 760px){
  
     header {
         width: 100%;
@@ -8,7 +8,7 @@
     } 
     header img {
         width:fit-content;
-        position: center;
+        position: static;
         display: flex;
         margin: auto;
         border: none;
@@ -30,42 +30,71 @@
     nav ul {
         display: flex;
         flex-direction: row-reverse;
-    }         
+    }     
 
+    article {
+        grid-column: 1 / 3 ;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: .5rem;
+        max-width: initial;
+        background-color:rgb(44, 96, 72);
+        color: #000;
+        margin: auto;
+        }
+   .events, .weather {
+        color: black;;
+        padding: 1rem;
+        border-color:rgb(77, 24, 24);
+        border-style: solid;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 25px;
+        gap: 1.5rem;
+        background:rgb(57, 163, 201);
+        grid-row: 2;
+        }
+    .events {
+        grid-column-end: 2 span;
+        }
+    .bus-spot1, .bus-spot2, .bus-spot3 {
+        color: black;;
+        padding: 1rem;
+        border-color:rgb(77, 24, 24);
+        border-style: solid;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: left;
+        border-radius: 25px;
+        gap: 1.5rem;
+        background:rgb(57, 163, 201);
+        grid-template-columns: auto auto auto ;
+        grid-row: 3;
+        text-align: center;
+        } 
+   
+ /* Discover page css */
     .main-content {
         flex: 3;
         margin-left: 400px;
         min-width: 400px;
         
     }
+
+    h2{
+        text-align: center;
+    }
+
     .main-content img:hover {
         border-color:rgb(2, 3, 85) ;
         border-width: 10px;
     
     }
     .left-sidebar {
-        flex: 1;
+        flex-basis: 1;
         text-align: justify;
         padding: 10px;
         width: 400px;
         height: auto;
         position: absolute;
-        top: 41rem;
+        top: 56rem;
       }
-      legend{
-		font-size: x-large;
-	}
-	fieldset{
-		max-width: 425px;
-		margin-left: auto;
-		margin-right: auto;
-	}	
-	.membership .sbs{
-		grid-column: auto;
-	}
-	.membdesc {
-		display: block;
-	}
-
 }   
 

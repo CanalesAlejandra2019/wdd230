@@ -1,16 +1,21 @@
+ * {
+  box-sizing: border-box;
+ }
+ 
  body {
     font-family: Arial, Helvetica, sans-serif;
   }
-  h1 {
+
+  #header{
+    display: block;
     padding: 10px;
-    display: flex; 
-    
   }
+    
   header {
     display: grid;
     padding: .5rem;
     grid-template-columns: auto 48px;
-    background:  rgb(2, 67, 37);
+    background:  rgb(44, 96, 72);
     color: black;
   }
   header button {
@@ -30,7 +35,7 @@
     height: auto;
   }
   .join-button{
-    display: flex;
+    display: block;
     margin: auto;
     text-align: center;
     border-radius: 25px;
@@ -39,7 +44,7 @@
     height: 50px;
     cursor: pointer;
     color:white;
-	background-color: #155756;
+	  background-color: #155756;
   }
 
 /* Menu code below */
@@ -50,7 +55,7 @@
     right: 0px;
     margin: 0 auto;
     max-width: 760px;
-    background: color #05226b; ;
+    background-color: #05226b; ;
   }
   .menu {
     list-style: none;
@@ -63,7 +68,7 @@
   }
   nav a {
     display: block;
-    position: column;
+    position: static;
     padding: 0.75rem 2rem;
     text-align: center;
     text-decoration: none;
@@ -83,6 +88,10 @@
   nav.open {
     display: block;
   }  
+
+  header button::before {
+    content: " ≡ "
+  }
   .close::before {
     content: " ❌ ";
     }
@@ -101,7 +110,7 @@
     margin: auto;
   }
   
-  section {
+  main section {
     color: black;;
     border-color:rgb(23, 30, 129);
     border-style: solid;
@@ -124,6 +133,11 @@
     width: 100%;
     height: auto;
   }
+
+  p{
+    font-size: larger;
+  }
+
   .left-sidebar {
     float: left;
     background-color: #3c8ef8;
@@ -131,88 +145,72 @@
     font-size: large;
     height: 100%;
   }
+
+
 /*join*/
-
-#join {
-	background-color: silver;
-	color: #A71930;
-	grid-column: span 4;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-fieldset {
-	border-radius: 10px;
-}
-#join fieldset label{
-	display: block;
-	height: 44px;
-	font-weight: 600;
-}
-legend {
-	font-weight: 700;
-	font-size: large;
-}
-.submitBtn {
-	height: 44px;
-	padding-left: 50px;
-	padding-right: 50px;
-	border-radius: 9px;
-	width: 100%;
-	max-width: 300px;
-	font-style: italic;
-}
-input {
-	height: 25px;
-	background-color: gray;
-	color: white;
-}
-label {
-	text-align: right;
-	padding-right: 50%;
-	padding-top: 15px;
-}
-label.sbs{
-	text-align: left;
-	padding-top: 0;
-	padding-right: 10%;
-}
-::placeholder{
-	color: aliceblue;
-}
-textarea {
-	vertical-align: middle;
-	border-radius: 4px;
-}
-.top {
-	text-align: left;
-}
-.radio{
-	margin-top: 0;
-	vertical-align: middle;
-}
-textarea {
-	width: 100%;
-	max-width: 800px;
-}
-#textarea {
-	padding-right: 5%;
-	padding-top: 0;
-}
-#buttonfieldset div {
-	text-align: center;
-}
-.membership{
-	display: grid;
-	grid-template-columns: 35% 65%;
-}
-.membership .sbs{
-	grid-column: span 2;
-}
-.membdesc {
-	display: none;
-	margin-top: 0;
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #070707f0;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  background-color: rgb(114, 123, 199);
+  text-align: left;
 }
 
+form legend{
+  color: black;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: large;
+  background-color: rgb(206, 76, 76);
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #000e0c;
+  font-size: medium;
+  
+}
+
+form label.top input, form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px  #7da98e ;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #f81fd71a;
+
+}
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+  
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #65aeca;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  font-size: large;
+}
+
+form label.top input:required  {
+  border-left: red solid 6px;  
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
 
   footer {
     background: rgb(2, 67, 37);

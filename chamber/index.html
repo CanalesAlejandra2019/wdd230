@@ -16,61 +16,63 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap">
 </head>
-    <body>
-         <nav class="navbar"> 
-            <ul class="menu">
-                 <li title="home">
-                    <a href="#" id="menu-button">&#9776;</a>
-                    </li>
-                    <li title="search">
-                         <a href="discover.html" class="menu-item"> Discover </a>
-                    </li>
-                    <li title="about">
-                        <a href="#" class="menu-item"> Directory </a>
-                    </li>
-                    <li title="contact">
-                        <a href="#" class="menu-item"> Join </a>
-                     </li>
+<body>
+    <main>
+        <header>
+            <h1>Miami Chamber of Commerce</h1>
+            <button></button>
+                <nav> 
+                    <ul class="menu">
+                        <li title="home">
+                            <a href="index.html" id="menu-button"> Home </a>
+                        </li>
+                        <li title="discover">
+                            <a href="discover.html" class="menu-item"> Discover </a>
+                        </li>
+                        <li title="about">
+                            <a href="#" class="menu-item"> Directory </a>
+                        </li>
+                        <li title="contact">
+                            <a href="join.html" class="menu-item"> Join </a>
+                        </li>
                     </ul>
                 </nav>
-     <header>
-        <div class="hero">
-            <picture>
-                <img src="images/miamipic.jpg " alt="picture of downtown">
-            </picture>
-       
-        <div class="herolabel">
-            <h1><span>Miami</span>Chamber of Commerce</h1>
-            <a class="callout-btn" href="#">Join Us!</a>
-             </div>
-        </div>
+                <p><img src="images/faritobeach.webp" loading="lazy" width="600" height="400" alt="picture of downtown"> <br>
+                    <a href="join.html" class="join-button"> Join Us! </a> <br>
+                </p>
         </header>
-            <main>
-             <section class="square1">
-              <h3>Events</h3>
-                <ul>
-                    <li>#</li>
-                    <li>#</li>
-                </ul>
-          </section>   
-          <section class="square2">
+        <section class="weather">
             <h3>Weather</h3>
             <p>76 F Clear Skies<br>
                 Humidity: 74% <br>
                 Wind: 9mph<br>
           </section>
-          <section class="square3">
-            <h3>company spotlights</h3>
-            <p>Placeholder for actual info</p> 
-          </section>
+
+         <section class="events">
+              <h3>Events</h3>
+              <img src="images/miamiboatshow.webp" loading="lazy" width="200" height="150" alt="Boat Show"/><br>
+              <p>February 15-19, 2023</p>
+            </section>  
+
+          <section class="bus-spot1">
+            <h3>Business Spotlights</h3>
+            <img src="images/pinolandiastore.webp" loading="lazy" width="200" height="150" alt="Pinolandia Storefront"/><br>
+            <p>Buy 1 meal, get 1 dessert half off.</p>
+        </section>
+        <section class="bus-spot2">
+            <h3>Business Spotlights</h3>
+            <img src="images/publix.webp" loading="lazy" width="200" height="150" alt="Publix Storefront"/><br>
+            <p>Come visit our remodeled Publix on 17th!</p>
+        </section>
+        <section class="bus-spot3">
+            <h3>Business Spotlights</h3>
+            <img src="images/sedanos.webp" loading="lazy" width="200" height="150" alt="Sedanoes Storefront"/><br>
+            <p>Check out Sedanoes weekly ad for this weeks deals!</p>
+        </section>
     </main>
-    <!-- <div class="map">
-        <h3>map placeholder</h3>
-    </div> -->
     <footer>
         <p> &#169; <a class="highlight" id="newDate"></a> Alejandra Canales <br>
           <a class="highlight" id="lastModified"> </a>
-          
         </p>
       </footer>
           <script src="scripts/getDates.js"></script>
