@@ -1,0 +1,86 @@
+{
+    "weeks" : [
+      {
+        "week1" : "Week 1",
+        "links1" : [
+          {
+            "url":"http://127.0.0.1:5500/week01/holygrail.html",
+            "title":"Holy Grail Layout"
+          },
+          {
+            "url":"http://127.0.0.1:5500/week01/media-query.html",
+            "title":"Media Query"
+          }
+
+        ],
+        "week2" : "Week 2",
+        "links2" : [
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/week02/design.html",
+                "title" : "Design"
+            },
+            {
+                "url" : "https://codepen.io/canalesalejandra2019/pen/QWBxjav",
+                "title" : "CodePen Menu"
+            },
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/week02/bom.html",
+                "title" : "Book of Mormon"
+            }
+        ],
+        "week3" : "Week 3",
+        "links3" : [
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/week03/images/landscape.webp",
+                "title" : "Landscape"
+            },
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/week03/lazyload.html",
+                "title" : "Lazy Load"
+            },
+            {
+                "url" : "https://codepen.io/canalesalejandra2019/pen/YzjBLra",
+                "title" : "CodePen Winter"
+            }
+        ],
+        "week4" : "Week 4",
+        "links4" : [
+            {
+                "url" : "https://codepen.io/canalesalejandra2019/pen/RwBzMrq",
+                "title" : "Pseudo-classes"
+            },
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/week04/tablebuild.html",
+                "title" : "ACME Table"
+            },
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/form-start/index.html",
+                "title" : "Form"
+            },
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/week04/images/CSS%20Combinator.webp",
+                "title" : "W3Schools"
+            }
+        ],
+        "week5" : "Week 5",
+        "links5" : [
+            {
+                "url" : "https://codepen.io/canalesalejandra2019/pen/VwGZoQN",
+                "title" : "Pseudo Elements"
+            },
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/week05/new-ward-members.json",
+                "title" : "JSON file"
+            },
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/week05/weather.html",
+                "title" : "Weather App"
+            },
+            {
+                "url" : "https://canalesalejandra2019.github.io/wdd230/week05/prophets.html",
+                "title" : "Prophets"
+            }
+        ]
+      }
+    ]  
+}
