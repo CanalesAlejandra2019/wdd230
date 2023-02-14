@@ -1,0 +1,52 @@
+body {
+    font-size: 16px;
+    font-family: Roboto, Helvetica, sans-serif;
+  }
+  
+  header,
+  main,
+  footer {
+    margin: 1rem;
+    position: relative;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #000;
+    text-shadow: 0 0 15px #e00db3;
+    text-align: center;
+  }
+  
+  h2 {
+    color: rgb(33, 7, 82);
+    margin: 1rem;
+  }
+  
+  main {
+    margin-left: 1rem;
+    box-shadow: 0 0 30px #777;
+  }
+  
+  #cards {
+      display: grid;
+    grid-gap: .5rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    padding: 1rem;  
+  }
+  
+  #cards section {
+    border: solid;
+    background-color: rgb(99, 182, 121); 
+  }
+  
+  img {
+    width: auto;
+    box-shadow: 0 0 30px #382644;
+    height: 250px;
+  }
+  
+  footer {
+    border-top: 1px solid #cf3bb4;
+    padding: 20px;
+    font-size: medium;
+  }

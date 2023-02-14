@@ -1,0 +1,12 @@
+.card {
+    border: 1px solid #5d6f67;
+    background-color: #f6f0da;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+p, h2 {margin: .3rem 0;}
+#town {color: #3a5250;}
+#description {text-transform: capitalize; color: #3a5250;}
+#temperature {font-size: 2rem; color: #537279;}

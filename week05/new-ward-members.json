@@ -1,0 +1,21 @@
+{
+    "familyName" : "Tsukino" ,
+    "movedInDate" : "25 May 22",
+    "numberOfRecords" : "3" ,
+    "visitedByBishopric" : "Yes",
+    "familyMembers" : [
+   
+           {"name" : "Darien",
+           "gender" : "Male",
+           "birthdate" : "3 Aug 1990"
+           }, 
+           {"name" : "Serena",
+           "gender" : "Female",
+           "birthdate" : "30 June 1992"
+           }, 
+           {"name" : "Rini",
+           "gender" : "Female",
+           "birthdate" : "30 June 2012"
+           }
+       ]
+   }
