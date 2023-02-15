@@ -146,29 +146,105 @@
     height: 100%;
   }
 
+/*Directory*/
+#title {
+  display: block;
+  height: 50px;
+  padding: 10px;
+  font-size: 35px;
+}
+#business{
+  background-color: #24437c;
+  width: 100%;
+}
+#cards section {
+  border: solid;
+  background-color: #3d914b;
+}
+#cards image {
+  width: auto;
+  height: 250px;
+}
+#directory {
+  display: flex;
+  text-align: center; 
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ddce41;
+  width: fit-content;
+}
+#directory button {
+	padding: 10px;
+	font-weight: 700;
+  font-size: medium; 
+
+}
+#directory button:hover , #directory button:focus {
+	background-color: rgb(26, 172, 104);
+  cursor: pointer;
+}
+
+.grid section {
+  max-width: 460px;
+	flex-direction: row;
+	text-align: center;
+}
+.grid section > * {
+	margin: 0.1rem;
+}
+.grid {
+	font-family: Tahoma, cursive;
+}
+
+article.list {
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+}
+.list section {
+	margin: 0;
+	padding: 0.25rem;
+  background-color: #200a70;
+}
+.list section > * {
+	margin: 0 1rem;
+  text-align: justify;
+}
+.list section img {
+	display: none;
+}
+.list section h3 {
+	font-size: 1rem;
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+
 
 /*join*/
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #070707f0;
+  border: 1px solid #f5f0f0f0;
   border-radius: 10px;
   padding: .5rem 2%;
-  background-color: rgb(114, 123, 199);
+  background-color: rgb(30, 112, 112);
   text-align: left;
 }
 
 form legend{
-  color: black;
+  color: rgb(247, 237, 237);
   margin: 0 1rem;
   padding: 0 .5rem;
   font-size: large;
-  background-color: rgb(206, 76, 76);
+  background-color: rgb(76, 78, 206);
 }
 
 form label.top, form div {
   display: block;
   padding-top: 1rem;
-  color: #000e0c;
+  color: #f1f7f6;
   font-size: medium;
   
 }
@@ -179,7 +255,7 @@ form label.top input, form label.top select {
   border: solid 1px  #7da98e ;
   border-radius: 4px;
   padding: .75rem;
-  color: #555;
+  color: #050505;
   width: 100%;
   max-width: 20rem;
   background-color: #f81fd71a;
@@ -188,7 +264,7 @@ form label.top input, form label.top select {
 form label.sbs {
   display: block;
   padding: .75rem 0;
-  color: #555;
+  color: #070707;
   
 }
 

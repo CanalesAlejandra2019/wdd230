@@ -19,8 +19,8 @@
 <body>
     <main>
         <header>
-            <h1>Miami Chamber of Commerce</h1>
-            <button></button>
+            <h1 id="header">Miami Chamber of Commerce</h1>
+            <button id="button"></button>
                 <nav> 
                     <ul class="menu">
                         <li title="home">
@@ -41,34 +41,16 @@
                     <a href="join.html" class="join-button"> Join Us! </a> <br>
                 </p>
         </header>
-        <section class="weather">
-            <h3>Weather</h3>
-            <p>76 F Clear Skies<br>
-                Humidity: 74% <br>
-                Wind: 9mph<br>
-          </section>
-
-         <section class="events">
-              <h3>Events</h3>
-              <img src="images/miamiboatshow.webp" loading="lazy" width="200" height="150" alt="Boat Show"/><br>
-              <p>February 15-19, 2023</p>
-            </section>  
-
-          <section class="bus-spot1">
-            <h3>Business Spotlights</h3>
-            <img src="images/pinolandiastore.webp" loading="lazy" width="200" height="150" alt="Pinolandia Storefront"/><br>
-            <p>Buy 1 meal, get 1 dessert half off.</p>
-        </section>
-        <section class="bus-spot2">
-            <h3>Business Spotlights</h3>
-            <img src="images/publix.webp" loading="lazy" width="200" height="150" alt="Publix Storefront"/><br>
-            <p>Come visit our remodeled Publix on 17th!</p>
-        </section>
-        <section class="bus-spot3">
-            <h3>Business Spotlights</h3>
-            <img src="images/sedanos.webp" loading="lazy" width="200" height="150" alt="Sedanoes Storefront"/><br>
-            <p>Check out Sedanoes weekly ad for this weeks deals!</p>
-        </section>
+        <div id="business">
+            <h1 id="title">Miami Chamber Directory</h1>
+                <div id="directory">
+                    <button id="list"> 📋 List</button>
+                    <button id="grid"> 🔠 Grid</button>
+                </div>
+                <article class = "grid">
+                    <div id="cards"></div>
+                </article>
+        </div>
     </main>
     <footer>
         <p> &#169; <a class="highlight" id="newDate"></a> Alejandra Canales <br>
@@ -77,6 +59,7 @@
       </footer>
           <script src="scripts/getDates.js"></script>
           <script src="scripts/clickMenu.js"></script>
+          <script src="scripts/directory.js"></script>
           
     </body>
 </html>

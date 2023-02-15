@@ -1,0 +1,66 @@
+{"members" : [   
+        {   "name" : "Pinolandia",
+            "address" : "119 NW 12th Ave",
+            "phone" : "305-325-8663",
+            "website" : "https://www.pinolandiafl.com/",
+            "membershiplevel" : "Silver",
+            "image" : "images/pinolandia.webp"
+        },      
+        {   "name" : "The Dry Cleaning Factory",
+            "address" : "250 South State",
+            "phone" : "305-726-7777",
+            "website" : "https://www.thedrycleaningfactory.com/Home",
+            "membershiplevel" : "Bronze",
+            "image" : "images/drycleaningfactory.webp"
+        },
+        {   "name" : "Grove Bank and Trust",
+            "address" :"2701 S Bayshore Dr",
+            "phone" : "305-860-2797",
+            "website" : "https://www.grovebankandtrust.com/",
+            "membershiplevel" : "Gold",
+            "image" : "images/grovebank.webp"
+        },
+        {   "name" : "Miami Duck Tours",
+            "address" :"24 N 3210 E",
+            "phone" : "305-673-2217",
+            "website" : "https://ducktourssouthbeach.com/",
+            "membershiplevel" : "Silver",
+            "image" : "images/ducktours.webp"
+        },
+        {   "name" : "Rainbow",
+            "address" :"10252 SW 56th St",
+            "phone" : "305-273-6165",
+            "website" : "https://www.rainbowshops.com/",
+            "membershiplevel" : "Bronze",
+            "image" : "images/rainbow.webp"
+        },
+        {   "name" : "Ronald Mcdonald House Charities",
+            "address" :"1145 NW 14th Ter",
+            "phone" : "305-324-5683",
+            "website" : "https://rmhcsouthflorida.org/",
+            "membershiplevel" : "NP (non-profit)",
+            "image" : "images/rmcharity.webp"
+        },  
+        {   "name" : "Padgett Business Services",
+            "address" :"299 Alhambra Cir",
+            "phone" : "786-369-4037",
+            "website"  : "https://www.padgettadvisors.com/",
+            "membershiplevel" : "Gold",
+            "image" : "images/accounting.webp"
+        },
+        {   "name" : "Gordon Food Service Store",
+            "address" :"2299 SW 8th St",
+            "phone" : "305-643-1124",
+            "website" : "https://gfsstore.com/",
+            "membershiplevel" : "Silver",
+            "image" : "images/gfs.webp"
+        }  ,
+        {   "name" : "Sedanos",
+            "address" :"3659 SW 26th St",
+            "phone" : "305-227-1140",
+            "website" : "https://www.sedanos.com/",
+            "membershiplevel" : "Bronze",
+            "image" : "images/sedanos.webp"
+        } 
+    ]
+}
