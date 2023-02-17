@@ -15,7 +15,7 @@
     display: grid;
     padding: .5rem;
     grid-template-columns: auto 48px;
-    background:  rgb(212, 124, 162);
+    background:  rgb(113, 200, 157);
     color: black;
   }
   header button {
@@ -45,6 +45,30 @@
     cursor: pointer;
     color:white;
 	  background-color: #155756;
+  }
+
+  #banner{
+    height: 65px;
+    background-color: rgb(32, 6, 86);
+    border: #e6ee0b 5px solid;
+    text-align: center;
+    overflow: hidden;
+  }
+  .showbanner{
+    display: block;
+  }
+  .hidebanner {
+    display: none;
+  }
+  .marquee {
+    margin: 8px auto;
+    
+  }
+  .marquee span{
+    color: rgb(245, 243, 247);
+    font-size: 1rem;
+    overflow: hidden;
+    font-weight: 900;	
   }
 
 /* Menu code below */
@@ -107,18 +131,18 @@
     padding: .5rem;
     min-width: auto;
     background-color: #155756;
-    color: white;
+    color: rgb(246, 243, 243);
     margin: auto;
   }
   
   main section {
-    color: white;;
+    color: rgb(246, 241, 241);;
     border-color:rgb(105, 114, 238);
     border-style: solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 25px;
-    background-color:#11076c ;
+    background-color:#155756 ;
     gap: 1.5rem;
 
   }
@@ -141,7 +165,7 @@
 
   .left-sidebar {
     float: left;
-    background-color: #3c8ef8;
+    background-color: #1adbd8;
     text-align: center;
     font-size: large;
     height: 100%;
@@ -155,12 +179,12 @@
   font-size: 35px;
 }
 #business{
-  background-color: #24437c;
+  background-color: #155756;
   width: 100%;
 }
 #cards section {
   border: solid;
-  background-color: #8439af;
+  background-color: #399faf;
 }
 #cards image {
   width: auto;
@@ -271,7 +295,7 @@ form label.sbs {
 
 form input.submitBtn {
   border: none;
-  background-color: #65aeca;
+  background-color: #156a8c;
   color: white;
   border-radius: 1rem;
   padding: .75rem 1.5rem;

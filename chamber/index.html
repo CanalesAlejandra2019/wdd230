@@ -14,6 +14,7 @@
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap">
 </head>
 <body>
@@ -40,7 +41,12 @@
                 <p><img src="images/faritobeach.webp" loading="lazy" width="600" height="400" alt="picture of downtown"> <br>
                     <a href="join.html" class="join-button"> Join Us! </a> <br>
                 </p>
+                
         </header>
+        <div id="banner">
+            <p class="marquee"><span>Join us on Wednesdays at 7pm for the Chamber meet and greet!</span> 
+            </p>
+        </div>
         <section class="weather">
             <h3>Weather</h3>
             <div class="card">
@@ -74,12 +80,13 @@
         </section>
     </main>
     <footer>
-        <p> &#169; <a class="highlight" id="newDate"></a> Alejandra Canales <br>
+        <p> &#169; <a class="highlight" id="newDate"></a> Alejandra Canales | WDD 230  <br>info@miamichamber | (786) 973- 9085  <br>
           <a class="highlight" id="lastModified"> </a>
         </p>
       </footer>
-          <script src="scripts/getDates.js"></script>
-          <script src="scripts/clickMenu.js"></script>
+          <script src="scripts/getdates.js"></script>
+          <script src="scripts/clickmenu.js"></script>
           <script src="scripts/chamberweather.js"></script>
+          <script src="scripts/getbanner.js"></script>
     </body>
 </html>
