@@ -15,18 +15,18 @@
     display: grid;
     padding: .5rem;
     grid-template-columns: auto 48px;
-    background:  rgb(44, 96, 72);
+    background:  rgb(212, 124, 162);
     color: black;
   }
   header button {
     font-size: 2rem;
     height: 48px;
     width: 48px;
-    background-color:#011014;
+    background-color:#0a9ec7;
   }
   header img{
     display: flex;
-    border-color:rgb(9, 33, 130);
+    border-color:rgb(9, 130, 61);
     border-style: solid;
     border-radius: 25px;
     top: 100px; 
@@ -50,6 +50,7 @@
 /* Menu code below */
   
   nav  {
+    display: none;
     position: absolute;
     top: 100px;
     right: 0px;
@@ -83,7 +84,7 @@
     color:white;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     transition: vertical 0.5s ease-in-out;
-    background-color:#155756 ;
+    background-color:#0e5e5d ;
   } 
   nav.open {
     display: block;
@@ -111,8 +112,8 @@
   }
   
   main section {
-    color: black;;
-    border-color:rgb(23, 30, 129);
+    color: white;;
+    border-color:rgb(105, 114, 238);
     border-style: solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -159,7 +160,7 @@
 }
 #cards section {
   border: solid;
-  background-color: #3d914b;
+  background-color: #8439af;
 }
 #cards image {
   width: auto;
@@ -229,7 +230,7 @@ form fieldset {
   border: 1px solid #f5f0f0f0;
   border-radius: 10px;
   padding: .5rem 2%;
-  background-color: rgb(30, 112, 112);
+  background-color: rgb(6, 98, 66);
   text-align: left;
 }
 
@@ -238,7 +239,7 @@ form legend{
   margin: 0 1rem;
   padding: 0 .5rem;
   font-size: large;
-  background-color: rgb(76, 78, 206);
+  background-color: rgb(10, 4, 101);
 }
 
 form label.top, form div {
