@@ -280,7 +280,7 @@ form label.top input, form label.top select {
   border: solid 1px  #7da98e ;
   border-radius: 4px;
   padding: .75rem;
-  color: #050505;
+  color: #f3ecec;
   width: 100%;
   max-width: 20rem;
   background-color: #f81fd71a;
@@ -289,7 +289,7 @@ form label.top input, form label.top select {
 form label.sbs {
   display: block;
   padding: .75rem 0;
-  color: #070707;
+  color: #f6f2f2;
   
 }
 
